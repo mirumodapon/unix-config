@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+	  "esbenp.prettier-vscode",
+	  "stylelint.vscode-stylelint",
+	  "editorconfig.editorconfig",
+
+	  "naumovs.color-highlight",
+	  "pkief.material-icon-theme",
+	  "coenraads.bracket-pair-colorizer",
+	  "streetsidesoftware.code-spell-checker",
+	  "aaron-bond.better-comments",
+	  "oderwat.indent-rainbow",
+
+	  "ms-vscode-remote.remote-ssh",
+	  "ms-vscode-remote.remote-ssh-edit",
+	  "humao.rest-client",
+	  "gruntfuggly.todo-tree",
+
+	  "formulahendry.auto-rename-tag",
+	  "formulahendry.auto-close-tag",
+	  "burkeholland.simple-react-snippets",
+	  "msjsdiag.vscode-react-native",
+	  "hollowtree.vue-snippets",
+	  "johnsoncodehk.volar",
+	  "abusaidm.html-snippets"
+  ]
+}
