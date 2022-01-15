@@ -1,27 +1,34 @@
 {
   "recommendations": [
-	  "esbenp.prettier-vscode",
-	  "stylelint.vscode-stylelint",
-	  "editorconfig.editorconfig",
+    // ! code prettier
+    "esbenp.prettier-vscode",
+    // "stylelint.vscode-stylelint",
+    // "editorconfig.editorconfig",
 
-	  "naumovs.color-highlight",
-	  "pkief.material-icon-theme",
-	  "coenraads.bracket-pair-colorizer",
-	  "streetsidesoftware.code-spell-checker",
-	  "aaron-bond.better-comments",
-	  "oderwat.indent-rainbow",
+    // ! vscode style
+    "pkief.material-icon-theme",
 
-	  "ms-vscode-remote.remote-ssh",
-	  "ms-vscode-remote.remote-ssh-edit",
-	  "humao.rest-client",
-	  "gruntfuggly.todo-tree",
+    // ! tools
+    "vscodevim.vim",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "humao.rest-client",
+    "gruntfuggly.todo-tree",
+    "streetsidesoftware.code-spell-checker",
 
-	  "formulahendry.auto-rename-tag",
-	  "formulahendry.auto-close-tag",
-	  "burkeholland.simple-react-snippets",
-	  "msjsdiag.vscode-react-native",
-	  "hollowtree.vue-snippets",
-	  "johnsoncodehk.volar",
-	  "abusaidm.html-snippets"
+    // ! code support
+    "naumovs.color-highlight",
+    "aaron-bond.better-comments",
+    "coenraads.bracket-pair-colorizer",
+    // "oderwat.indent-rainbow",
+
+    // ! language support
+    "formulahendry.auto-rename-tag"
+    // "formulahendry.auto-close-tag",
+    // "burkeholland.simple-react-snippets",
+    // "msjsdiag.vscode-react-native",
+    // "hollowtree.vue-snippets",
+    // "johnsoncodehk.volar",
+    // "abusaidm.html-snippets"
   ]
 }
