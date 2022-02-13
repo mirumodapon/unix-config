@@ -12,15 +12,29 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'msanders/snipmate.vim'
 Plug 'preservim/nerdtree'
+Plug 'prettier/vim-prettier'
 
 call plug#end()
 
-set nu
-set ai
-set tabstop=4
-set shiftwidth=4
-set cursorline
-set showcmd
-set hlsearch
-set backspace=2
+"
+
+cnoreabbrev tree NERDTree
+
+"
+
+filetype indent on
 syntax on
+set nu
+set cursorline
+set shiftwidth=4
+set tabstop=4
+set ai
+set showcmd
+set showmode
+set ruler
+set expandtab
+set nowrap
+set wildmenu
+set wildignore=*.exe,*.jpg,*.jpeg,*.png,*.gif,*.exe,*.docx,*.xlsx,*.pdf
+set hlsearch
+
