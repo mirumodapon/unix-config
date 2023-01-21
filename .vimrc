@@ -12,13 +12,16 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'msanders/snipmate.vim'
 Plug 'preservim/nerdtree'
-Plug 'prettier/vim-prettier'
+Plug 'prettier/vim-prettier', { 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html']}
 
 call plug#end()
 
 "
 
 cnoreabbrev tree NERDTree
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
+
 
 "
 
